@@ -4,10 +4,10 @@ import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { HelloComponent } from './hello.component';
-import { NavigationBarComponent } from './navigation-bar/navigation-bar.component';
-import { MaterialsModule } from './material/materials.module';
-import { AppRoutingModule } from './app-routing/app-routing.module';
-import { CustomersListComponent } from './customers-list/customers-list.component';
+import { MaterialsModule } from './modules/material/materials.module';
+import { AppRoutingModule } from './modules/app-routing/app-routing.module';
+import { NavigationBarComponent } from './components/navigation-bar/navigation-bar.component';
+import { CustomersListComponent } from './components/customers-list/customers-list.component';
 
 @NgModule({
   imports: [BrowserModule, FormsModule, MaterialsModule, AppRoutingModule],
